@@ -7,10 +7,11 @@
     <link rel="stylesheet" href="css/font5/all.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/styles.css">
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header class="header">
+        <!-- Begining Of Far Left Header -->
         <div class="header__logo-section">
             <div class="header__logo-icon">
                 <i class="fab fa-facebook"></i>
@@ -20,7 +21,8 @@
                 <input type="text" placeholder="Search Facebook">
             </div>
         </div>
-
+        <!-- End Of Far Left Header -->
+        <!-- Beginning Of Middle Header -->
         <div class="header__menu-tabs">
             <div class="header__menu-tab header__menu-tab--active">
                 <i class="fas fa-home"></i>
@@ -35,7 +37,7 @@
             <div class="header__menu-tab">
                 <i class="fas fa-tv">
                     <div class="header__notification-bubble">
-                        3
+                        9+
                     </div>
                 </i>
             </div>
@@ -50,25 +52,287 @@
                 </i>
             </div>
         </div>
-
+        <!-- End Of Middle Header -->
+        <!-- Begining of Far Right Header -->
         <div class="header__account">
             <div class="header__actions">
-                <img src="https://randomuser.me/api/portraits/women/44.jpg">
-                <span>Jane Doe</span>
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" class="header__user-img">
+                <span class="header__user-name">Jane Doe</span>
                 <a href="#" class="header__circle-link">
                     <i class="header__link-icon fas fa-plus"></i>
                 </a>
                 <a href="#" class="header__circle-link">
-                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="header__link-icon fab fa-facebook-messenger">
+                        <div class="header__notification-bubble">
+                            8
+                        </div>
+                    </i>
                 </a>
                 <a href="#" class="header__circle-link">
-                    <i class="fas fa-bell"></i>
+                    <i class="header__link-icon fas fa-bell">
+                        <div class="header__notification-bubble">
+                            16
+                        </div>
+                    </i>
                 </a>
                 <a href="#" class="header__circle-link">
-                    <i class="fab fa-facebook-messenger"></i>
+                    <i class="header__link-icon fas fa-sort-down"></i>
                 </a>
             </div>
         </div>
+        <!-- End Of Far Right Header -->
     </header>
+
+     <!-- Beginning of body Feed section -->
+        <section class="content-area content-area--feed">
+            <section class="sidenav">
+                <div class="sidenav__item">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" class="sidenav__item-img">
+                    <span class="sidenav__item-title">Jane Doe</span>
+                </div>
+
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="sidenav__item-title">Friends</span>
+                </div>
+
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <span class="sidenav__item-title">Pages
+                        <span class="sidenav__item-notification">
+                            <!-- Content of the sub span/notification -->
+                            <div class="sidenav__item-notification-circle"></div>3 new
+                        </span>
+                    </span>
+                </div>
+
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <span class="sidenav__item-title">Groups
+                        <span class="sidenav__item-notification">
+                            <!-- Content of the sub span/notificatio -->
+                            <div class="sidenav__item-notification-circle"></div>5 new
+                        </span>
+                    </span>
+                </div>
+
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <span class="sidenav__item-title">Marketplace</span>
+                </div>
+
+                 <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item sidenav__item-icon--circle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <span class="sidenav__item-title">See More</span>
+                </div>
+                <!-- Begining Of Side Nav Line -->
+                <div class="sidenav__line"></div>
+                <span class="sidenav__heading-title">Your Shortcuts</span>
+            
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="sidenav__item-title">CodingPhase Groups</span>
+                </div> 
+
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="sidenav__item-title">CodingPhase</span>
+                </div>
+
+                <div class="sidenav__item">
+                    <img src="https://randomuser.me/api/portraits/women/31.jpg" class="sidenav__item-img">
+                    <span class="sidenav__item-title">Anatomy Class Chat</span>
+                </div>
+
+                <div class="sidenav__item">
+                    <img src="https://www.valuewalk.com/wp-content/uploads/2021/09/Tai-Lopez.jpg" class="sidenav__item-img">
+                    <span class="sidenav__item-title">Tai Lopez Marketing Secrets</span>
+                </div>
+
+                <div class="sidenav__item shortcut_img-tabs">
+                    <img src="https://randomuser.me/api/portraits/women/22.jpg" class="sidenav__item-img shortcut_img-tabs">
+                    <span class="sidenav__item-title">Click Funnels</span>
+                </div>
+
+                <div class="sidenav__item shortcut_img-tabs">
+                    <img src="https://randomuser.me/api/portraits/women/40.jpg" class="sidenav__item-img shortcut_img-tabs">
+                    <span class="sidenav__item-title">Shopify App</span>
+                </div>
+
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item sidenav__item-icon--circle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <span class="sidenav__item-title">See More</span>
+                </div>
+
+            </section>
+            <!-- Ending of Sidenav Section -->
+
+            <section class="feed">
+                <!-- Below is The Stories Div That holeds the video Containers -->
+                    <div class="stories">
+                        <div class="stories__video-container">
+                            <img src="https://i.ytimg.com/vi/NlKamRgzIdk/maxresdefault.jpg" alt="" class="stories__bg">
+                            <div class="stories__title">
+                                <div class="stories__new-btn">
+                                    <i class="fas fa-plus"></i>
+                                </div>
+                                Create A Story
+                            </div>
+                        </div>
+
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://i.makeagif.com/media/6-23-2015/WS3HKc.gif" alt="Jay Z Music Video">
+                            <div class="stories__title stories__title-plain">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/women/40.jpg">
+                                Jane Doe
+                            </div>
+                        </div>
+
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://media2.giphy.com/media/v1.Y2lkPTZjMDliOTUyZDBseXhpODhla2psamJsa2dpOHVic2o2dWt6dXpjYWZqZXN1Mjk2eCZlcD12MV9naWZzX3NlYXJjaCZjdD1n/puTfCZ53juoZW/source.gif" alt="Jay Z Music Video">
+                            <div class="stories__title stories__title-plain">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/women/41.jpg">
+                                Michelle Issacs
+                            </div>
+                        </div>
+
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://media.tenor.com/-yjCe1xWSoIAAAAM/bruno-mars-whats-on-your-mind.gif" alt="Jay Z Music Video">
+                            <div class="stories__title stories__title-plain">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/women/45.jpg">
+                                Charlean Baxter
+                            </div>
+                        </div>
+
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://i.makeagif.com/media/11-03-2016/2FuVVm.gif" alt="Jay Z Music Video">
+                            <div class="stories__title stories__title-plain">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/men/47.jpg">
+                                Scott Decenzo
+                            </div>
+                        </div>
+                
+                        <div class="stories__video-container stories__video-container--plain">
+                            <img class="stories__bg" src="https://i.pinimg.com/originals/4c/cf/15/4ccf152b42eecce6a4f1982ff8206ac6.gif" alt="Jay Z Music Video">
+                            <div class="stories__title stories__title-plain">
+                                <img class="stories__user" src="https://randomuser.me/api/portraits/men/49.jpg">
+                                George Cameron
+                            </div>
+                        </div>
+                    </div>
+                <!-- End Of Stories Containers -->    
+                </div>
+
+                <!-- Begining of Feed Comment Box -->
+                <div class="feed__box submit-post">
+                    <div class="newpost">
+                        <img src="https://randomuser.me/api/portraits/men/49.jpg" class="newpost__user-img">
+                        <input type="text" placeholder="What's on your mind, John?">
+                    </div>
+                    <div class="hline"></div>
+                    <!-- <div class="media-links">
+                        <div class="media-links-icon">
+                            <i class="fas fa-video"></i>
+                            <span>Live Video</span>
+                        </div>
+                        <div class="media-links-icon">
+                            <i class="fas fa-images"></i>
+                            <span>Photos/Videos</span>
+                        </div>
+                        <div class="media-links-icon">
+                            <i class="fas fa-smile"></i>
+                            <span>Feelings/Activities</span>
+                        </div>
+                    </div> -->
+                    <div class="post-types">
+                        <div class="post-types__item">
+                            <i class="fas fa-video"></i>Live Video
+                        </div>
+                        <div class="post-types__item">
+                            <i class="fas fa-photo-video"></i>Photo Video
+                        </div>
+                        <div class="post-types__item">
+                            <i class="fas fa-laugh-beam"></i>Feeling/Activity
+                        </div>
+                    </div>
+
+                 </div>
+                <!-- End of Feed Comment Box -->
+                 <!-- Begining of User Profile Box -->
+                 <div class="feed__box photopost">
+                    <div class="photopost__info">
+                        <div class="photopost__left">
+                            <img src="https://randomuser.me/api/portraits/men/47.jpg" alt="">
+                            <div class="photopost__details">
+                                <span class="photopost__name">James Dope</span>
+                                <span class="photopost__date">December 17 at 10:45am <i class="fas fa-user-friends"></i></span>
+                            </div>
+                        </div>
+                        
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <div class="photopost__description">
+                        Hey Just hanging out with my cousin in venice beach sunny California.
+                    </div>
+                    <div class="photopost__img">
+                        <img src="https://i.etsystatic.com/19869671/r/il/9bd058/2189688763/il_fullxfull.2189688763_hd3r.jpg" alt="">
+
+                    </div>
+                    <div class="photopost__stats">
+                        <div class="photopost__stats-emojis">
+                            <div class="emoji-circle emoji-circle--blue">
+                                <i class="fas fa-thumbs-up"></i>
+                            </div>
+                            <div class="emoji-circle emoji-circle--red">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="emoji-circle emoji-circle--yellow">
+                                <i class="fa-regular fa-face-surprise"></i>
+                            </div>
+                            3.3k
+                        </div>
+
+                        <div class="photopost__stats-share">
+                            788 Comments 73 Shares
+                        </div>
+                    </div>
+                    <div class="hline photopost__line"></div>
+
+                    <div class="post-types photopost__types">
+                        <div class="post-types__item">
+                            <i class="fas fa-video"></i>Live Video
+                        </div>
+                        <div class="post-types__item">
+                            <i class="fas fa-photo-video"></i>Photo Video
+                        </div>
+                        <div class="post-types__item">
+                            <i class="fas fa-laugh-beam"></i>Feeling/Activity
+                        </div>
+                    </div>
+
+                    <div class="hline photopost__line"></div>
+                 </div>
+                 <!-- End of User Photo Box -->
+
+            </section>
+         <!-- Ending of body Feed section -->   
+        </section>
+
 </body>
 </html>
